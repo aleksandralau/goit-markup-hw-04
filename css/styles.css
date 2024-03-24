@@ -11,7 +11,7 @@
 --header-color:#e7e9fc;
 }
 .logo-class:hover,
-.logo-class:focus {
+:active, :focus {
   color: var(--blue-color);
 }
 .li-links:hover,
@@ -36,7 +36,10 @@ button {
   margin-right: 76px;
 }
  
-  
+.color {
+  color: var(--blue-color);
+}
+
 button:hover,
 button:focus {
   background-color: var(--blue-color);
@@ -278,15 +281,26 @@ margin-bottom: 8px;
 .studio-head {
   color: var(--font-color);
 }
-.address-details {
+.address .a-link {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
   font-style: normal;
+  color: #434455;
 }
+.address-list {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+
 .logo-class {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--blue-color);
+  color: var(--font-color);
   padding: 24px 0; 
   text-decoration: none;
   position: relative;
@@ -294,13 +308,13 @@ margin-bottom: 8px;
 }
 .link-modal::after {
   content: "";
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: var(--blue-color);
-    border-radius: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--blue-color);
+  border-radius: 2px;
 }
 .li-links {
   font-size: 16px;
