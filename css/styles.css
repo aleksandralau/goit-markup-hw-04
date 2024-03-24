@@ -2,6 +2,7 @@
 *::after * {
     box-sizing: border-box;
 }
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -10,7 +11,7 @@ body {
     color: #434455;
     background-color: #ffffff;
 }
-/* global repeatable settings */
+
 h1,
 h2,
 h3,
@@ -34,8 +35,7 @@ img {
     max-width: 100%;
     height: auto;
 }
-/* ---------------------------*/
-/* header settings */
+
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: 0 2px 1px rgba(46, 47, 66, 0.08),
@@ -56,7 +56,7 @@ section {
     margin: 0 auto;
     padding: 0 15px;
 }
-/* navigation links & LOGO */
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -116,7 +116,7 @@ section {
 :focus {
     color: #404bbf;
 }
-/* address list */
+
 .address .a-link {
     font-weight: 400;
     font-size: 16px;
@@ -138,7 +138,7 @@ section {
 :focus {
     color: #404bbf;
 }
-/* hero image & main button */
+
 .hero {
     background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
@@ -189,7 +189,7 @@ section {
 .main-button:focus {
     background-color: #404bbf;
 }
-/*section four features starts here */
+
 .features {
     padding: 120px 0;
     justify-content: space-between;
@@ -245,7 +245,7 @@ section {
     letter-spacing: 0.02em;
     color: #434455;
 }
-/* section our team */
+
 .our-team {
     background-color: #f4f4fd;
     gap: 24px;
@@ -328,7 +328,7 @@ section {
 .social-icon:focus {
     color: #f4f4fd;
 }
-/* section our portfolio */
+
 .our-portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -388,7 +388,7 @@ section {
     color: #2e2f42;
     margin-bottom: 8px;
 }
-/* footer section */
+
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
